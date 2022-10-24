@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Coding Trip</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="stylecontact.css">
+    </head>
+    <body>
+        <fieldset>
+
+            <legend>CONTACTEZ - NOUS</legend>
+
+            <label for="nom"></label>
+            <input type="text" name="nom" id="nom" placeholder="NOM" required="required" />
+
+            <label for="prenom"></label>
+            <input type="text" name="prenom" id="prenom" placeholder="PRENOM" required="required" />
+
+            <label for="email"></label>
+            <input type="text" name="email" id="email" placeholder="EMAIL" required="required"/>
+            
+            <label for="phone"></label>
+            <input type="text" name="phone" id="phone" placeholder="TELEPHONE" required="required"/>
+
+            <br><label for="date">DATE DE DEPART</label>
+            <input type="date" name="date" id="date" required="required" />
+
+                <label for="pays">DESTINATION</label>
+                <select name="pays" id="pays">
+                    <option value="saississez"></option>
+                    <option value="borabora">Bora-Bora</option>
+                    <option value="petra">Petra</option>
+                    <option value="portugal">Portugal</option>
+                </select>
+
+            <p class="mess">
+                <label for="commentaire">Laissez votre commentaire ici, merci</label>
+                <br><textarea name="commentaire"id="commentaire"></textarea>
+            </p>
+
+            <p class="bouton">
+            <input type="submit" value="Envoyer"/>
+            </p>
+
+        </fieldset>
+    </body>
+</html>
